@@ -1,0 +1,15 @@
+{% extends "match/base.html" %}
+{% load static %}
+{% load bootstrap4 %}
+{% block title %}募集画面{% endblock %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/recruit_error.css' %}">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<script src="{% static 'user.js' %}"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<h3>プロフィールが設定されていないため、募集作成ができません</h3>
+<p>下記URLにアクセスしてプロフィールの設定を行いましょう。</p>
+<div class="profile-create"><a href="{% url 'profile_create' %}">プロフィール作成画面</a></div>
+
+{% endblock %}

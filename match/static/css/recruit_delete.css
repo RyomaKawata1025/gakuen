@@ -1,0 +1,82 @@
+.delete-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.recruit_content{
+    background-color: rgb(233, 242, 245);
+    border-radius: 10px;
+    width: 60%;
+    height: 450px;
+    margin: 50px auto;
+}
+
+.info-delete {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.delete-btn {
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.back-btn {
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 375px) {
+    .delete-title {
+        display: block;
+        width: 90%;
+        margin: 5px 10px;
+        font-size: 15px;
+        overflow: hidden;
+    }
+
+    .recruit_content{
+        background-color: rgb(233, 242, 245);
+        border-radius: 10px;
+        height: 70%;
+        width: 80%;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+
+    .delete-btn {
+        height: 20px;
+        font-size: 20px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    input {
+        height: 23px;
+        width: 35px;
+        font-size: 15px;
+    }
+    
+    .back-btn {
+        height: 20px;
+        font-size: 15px;
+        text-align: center;
+        margin: 15px auto;
+    }
+}

@@ -1,0 +1,105 @@
+
+.recruit_create {
+    background-color: rgb(233, 242, 245);
+    width: 60%;
+    margin: auto;
+    border-radius: 30px;
+
+   
+}
+
+table {
+    display: block;
+    padding: 10px;
+}
+
+
+.recruit-title {
+    color: #0a7afa;
+}
+
+.post-btn {
+    text-align: center;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    height: 50px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #7db7fa;/*ボタン色*/
+    color: #FFF;
+    border-radius: 3px;
+    font-size: 15px;
+    
+}
+.btn:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    h1{
+        font-size:25px;
+    }
+
+    .recruit_create {
+        background-color: rgb(233, 242, 245);
+        width: 90%;
+        margin:auto;
+        border-radius: 30px;
+        
+    }
+
+    
+    .recruit-content {
+        display: block;
+        width: 80%;
+        
+    }
+
+    table {
+        display: block;
+        overflow-x: scroll;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding: 10px;
+    }
+
+    tr {
+        display: block;
+        width: 100%;
+
+    }
+    .recruit-title {
+        color: #0a7afa;
+    }
+
+    .post-btn {
+        padding: 10px 0px 20px 120px;
+    }
+
+    .btn {
+        display: inline-block;
+        height: 35px;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #7db7fa;/*ボタン色*/
+        color: #FFF;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    .btn:active {
+        /*ボタンを押したとき*/
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);/*下に動く*/
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+        border-bottom: none;
+    }
+    
+}

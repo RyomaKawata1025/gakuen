@@ -1,0 +1,48 @@
+h1 {
+    color: #4597F5;
+}
+
+.search-form{
+    margin: auto;
+}
+
+
+.recruit {
+    float:center;
+    width: 90%;
+    height: 25%;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: #4597F5;
+    margin: 50px;
+}
+
+.recruit-title {
+    font-size: 25px;
+}
+
+p {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 480px) {
+
+    h1 {
+        color: #4597F5;
+        font-size:25px;
+    }
+    
+    .search-form{
+        margin: auto;
+    }
+    
+    
+    .recruit {
+        width: 80%;
+        border: solid 2px;
+        border-radius: 10px;
+        border-color: #4597F5;
+        margin: 50px;
+    }
+    
+}

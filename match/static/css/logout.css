@@ -1,0 +1,28 @@
+h1 {
+    color: #0a7afa;
+}
+
+.logout-form {
+    display: block;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .logout-form {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+}

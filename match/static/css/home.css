@@ -1,0 +1,190 @@
+h3 {
+  color: #4597F5;
+  font-size: 50px;
+}
+
+.supplement {
+    font-size:20px;
+    font-weight: bold;
+}
+
+.font-main {
+    padding: 2px;
+  }
+  
+  #btn1 {
+    margin-bottom: 4px;
+  }
+
+
+
+  .supplement{
+    color:black;
+}
+
+.product-title{
+    height: 450px;
+    padding:50px;
+    background-image:url("pc.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.title{
+    color: #0a7afa;
+}
+
+.merit {
+  text-align: center;
+  margin: 0px auto;
+  
+}
+
+.merit-list{
+    font-size:30px;
+    color: #0a7afa;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: #0a7afa;
+    padding:45px;
+    margin: 90px;   
+}
+
+.use-content {
+    background-color: #ecf2fa;
+    padding:50px;
+}
+
+.how-to-use{
+    color: black;
+}
+
+.use-list{
+    font-size:25px;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: black;
+    padding:15px;
+    margin: 50px; 
+}
+
+.profile-create{
+  text-align:center;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+.profile {
+  text-align:center;
+  margin: 10px auto;
+  font-size: 20px;
+  
+}
+
+.recruit {
+  text-align:center;
+  margin:10px auto;
+  font-size: 20px;
+}
+
+.recruit_create {
+  text-align:center;
+  margin:10px auto;
+  font-size: 20px;
+}
+
+.search {
+  text-align:center;
+  margin:10px auto;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 375px) {
+h3 {
+    color: #4597F5;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.supplement {
+    font-size:13px;
+}
+
+.font-main {
+    padding: 2px;
+  }
+  
+  #btn1 {
+    margin-bottom: 4px;
+  }
+
+
+.product-title{
+    z-index: 100;
+    height: 300px;
+    padding:20px 20px 0px 20px;
+    background-image:url("pc.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.title{
+    color: #0a7afa;
+}
+
+.merit {
+  text-align: center;
+  margin: 0px auto;
+}
+
+.merit-list{
+    font-size:10px;
+    color: #0a7afa;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: #0a7afa;
+    padding:15px;
+    margin: 30px;   
+}
+
+.use-content {
+    background-color: #ecf2fa;
+    padding:50px;
+}
+
+.how-to-use{
+    color: black;
+}
+
+.use-list{
+    font-size:15px;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: black;
+    padding:15px;
+    margin: 30px; 
+}
+
+.profile-create{
+  text-align:center;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+.profile {
+  text-align:center;
+  margin: 10px auto;
+  font-size: 20px;
+  
+}
+
+.recruit {
+  text-align:center;
+  margin:10px auto;
+  font-size: 20px;
+}
+}

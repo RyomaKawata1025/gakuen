@@ -1,0 +1,57 @@
+{% extends "match/base.html" %}
+{% load static %}
+{% load bootstrap4 %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="content">
+<div class="product-title">
+<h3 class="title">学生エンジニアとつながろう！</h3>
+<h5 class="supplement">サービス開発・勉強会など同じ目的を持った学生エンジニアが見つかるサービスです。</h5>
+</div>
+<div class="merit">
+    <li class="merit-list">無料で簡単にマッチング</li>
+    <li class="merit-list">リモートでチーム開発経験がつめる</li>
+    <li class="merit-list">アイデアがなくても作りたいものが見つかる</li>
+</div>
+</div>
+<div class="use-content">
+<h2 class="how-to-use">サービスの使い方</h2>
+<li class="use-list">プロフィールを登録します。プロフィールを充実させることでマッチング率が上がります。</li>
+<li class="use-list">リモート開発ができる環境を整えましょう。zoomやGitの使い方の説明を記載しています。</li>
+<li class="use-list">検索画面で学生エンジニアを探します。気になる募集があれば気軽にメッセージを送りましょう。</li>
+<li class="use-list">勉強会の開催やサービス開発など既に目的がある方は募集を作成しましょう。</li>
+</div>
+{% if data > 0 %}
+<div class="profile"><a href="{% url 'profile' %}">プロフィール</a></div>
+<div class="recruit"><a href="{% url 'recruit' %}">募集状況</a></div>
+<div class="recruit_create"><a href="{% url 'recruit_create' %}">新しく募集する</a></div>
+<div class="search"><a href="{% url 'search' %}">仲間を探す</a></div>
+
+{% else %}
+<div class="profile-create"><a href="{% url 'profile_create' %}">プロフィール作成画面</a></div>
+{% endif %}
+<!--
+<h3>テスト</h3>
+<p>
+<form name="test">
+<select name="linkselect" onChange="kakunin()">
+<option value="">選択して下さい</option>
+<option value="http://www.yahoo.co.jp/">Yahoo!Japan</option>
+<option value="http://www.google.co.jp/">Google</option>
+<option value="{% url 'profile' %}">プロフィール</option>
+</select>
+</form>
+</p>
+
+<div class="hoge">
+    <li><a href="#"><img src="{{ MEDIA_URL }}documents/poodle.jpg" alt="次へ" width="135" height="50"></a></li>
+    <li><a href="#"><img src="{{ MEDIA_URL }}documents/lion.jpg" alt="次へ" width="135" height="50"></a></li>
+    <li><a href="#"><img src="{{ MEDIA_URL }}documents/shibainu.jpg" alt="次へ" width="135" height="50"></a></li>
+</div>
+-->
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/slick.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/home.js' %}"></script>
+{% endblock %}
