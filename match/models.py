@@ -11,7 +11,7 @@ class Profile(models.Model):
     id = models.OneToOneField(User,primary_key=True,on_delete=models.CASCADE,blank=True)
     name = models.CharField(max_length=25,null=True)
     school = models.CharField(max_length=25)
-    image = models.ImageField(upython manage.py showmigrationspload_to='documents/')
+    image = models.ImageField(upload_to='documents/')
     self_introduction = models.TextField()
     
     def __str__(self):

@@ -68,7 +68,6 @@ def recruit_create(request):
         params['language'] = LanguageForm()
 
     return render(request,'match/recruit_create.html', params)
-"""
 
 @login_required(login_url='/accounts/login/')
 def recruit_create(request):
@@ -310,6 +309,6 @@ def inquiry(request):
     return render(request,'match/inquiry.html')
 
 
-"""
+
 
 
