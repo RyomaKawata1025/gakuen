@@ -2,7 +2,7 @@ GAKUEN
 ガクエンは学生エンジニア向けのマッチングアプリです
 
 DEMO
-http://gakuen-env.eba-b325v95t.ap-northeast-1.elasticbeanstalk.com/match/home
+http://gakuen.site/accounts/login/
 
 Featue
 リモート開発に対応しています。
